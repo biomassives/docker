@@ -9,9 +9,9 @@ ENV DB_SERVER 127.0.0.1
 ENV DB_PORT 3306
 ENV DB_NAME prestashop
 ENV DB_USER root
-ENV DB_PASSWD admin
-ENV ADMIN_MAIL demo@prestashop.com
-ENV ADMIN_PASSWD prestashop_demo
+ENV DB_PASSWD adminpresta
+ENV ADMIN_MAIL greg@biomassiv.es
+ENV ADMIN_PASSWD prestashop_demo1209
 ENV PS_LANGUAGE en
 ENV PS_COUNTRY gb
 ENV PS_INSTALL_AUTO 0
@@ -19,8 +19,8 @@ ENV PS_DEV_MODE 0
 ENV PS_HOST_MODE 0
 ENV PS_HANDLE_DYNAMIC_DOMAIN 0
 
-ENV PS_FOLDER_ADMIN admin
-ENV PS_FOLDER_INSTALL install
+ENV PS_FOLDER_ADMIN admin1614
+ENV PS_FOLDER_INSTALL installviadocker
 
 
 # Avoid MySQL questions during installation
